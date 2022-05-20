@@ -34,7 +34,7 @@ const HomePostComponent = ({ postId, title, author, points, date }) => {
           <div className="points-date-container">
             <h3>
               {points}
-              <i class="fa-solid fa-thumbs-up"></i>
+              <i className="fa-solid fa-thumbs-up"></i>
             </h3>
             <p>{date}</p>
           </div>

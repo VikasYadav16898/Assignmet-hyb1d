@@ -28,6 +28,7 @@ export const popAnimationWrapper = {
   hidden: {},
   show: {
     transition: {
+      duration: 0.1,
       staggerChildren: 0.1,
     },
   },

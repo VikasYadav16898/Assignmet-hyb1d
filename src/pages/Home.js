@@ -15,7 +15,6 @@ const Home = () => {
   const [postList, setpostList] = useState([]);
   const [inputdata, setInputdata] = useState("");
   const [isLoading, setIsLoading] = useState(true);
-  console.log("HERE", process.env.REACT_APP_URL);
 
   // Initializing data
   useEffect(() => {
@@ -23,7 +22,6 @@ const Home = () => {
     setIsLoading(true);
     getPosts(inputdata)
       .then((res) => {
-        console.log(res.hits);
         setpostList(res.hits);
         setIsLoading(false);
       })

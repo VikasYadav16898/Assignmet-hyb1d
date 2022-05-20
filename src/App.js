@@ -11,7 +11,6 @@ function App() {
       <NavComponent />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/loading" element={<LoadingComponent />} />
         <Route path="/post/:postid" element={<PostDetails />} />
       </Routes>
     </Router>

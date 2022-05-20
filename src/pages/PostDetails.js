@@ -26,7 +26,6 @@ const PostDetails = () => {
   // Initializing data
   useEffect(() => {
     getPostDetailsById(parameters.postid).then((res) => {
-      console.log(res);
       setpostData(res);
       setisLoading(false);
     });
